@@ -1,0 +1,858 @@
+{
+  "settings": {
+    "site_name": "YourHost",
+    "tagline": "Ghana's Favourite Web Hosting",
+    "currency_symbol": "₵",
+    "phone": "+233 00 000 0000",
+    "whatsapp": "",
+    "email": "support@yourhost.com",
+    "address": "Accra, Ghana",
+    "since_year": "2015"
+  },
+  "groups": [
+    {
+      "key": "hosting",
+      "label": "Hosting"
+    },
+    {
+      "key": "reseller",
+      "label": "Resellers"
+    },
+    {
+      "key": "email",
+      "label": "Email"
+    },
+    {
+      "key": "security",
+      "label": "Security"
+    },
+    {
+      "key": "website",
+      "label": "Website"
+    }
+  ],
+  "tlds": [
+    {
+      "ext": ".com",
+      "price": 200
+    },
+    {
+      "ext": ".org",
+      "price": 200
+    },
+    {
+      "ext": ".net",
+      "price": 200
+    },
+    {
+      "ext": ".info",
+      "price": 200
+    },
+    {
+      "ext": ".biz",
+      "price": 200
+    },
+    {
+      "ext": ".xyz",
+      "price": 200
+    },
+    {
+      "ext": ".com.gh",
+      "price": 200
+    },
+    {
+      "ext": ".africa",
+      "price": 200
+    }
+  ],
+  "categories": [
+    {
+      "slug": "linux-hosting",
+      "group": "hosting",
+      "name": "Linux Shared Hosting",
+      "headline": "Affordable, Reliable and Secure Linux Shared Hosting",
+      "intro": "Every Linux hosting package comes with the cPanel control panel, free SSL, one-click app installs and 24/7 support. Choose a hosting package below to get started!",
+      "plans": [
+        {
+          "name": "Starter",
+          "description": "Perfect for a first website or blog",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "1 GB SSD storage",
+            "200 GB bandwidth",
+            "Free SSL certificate",
+            "cPanel control panel",
+            "One-click WordPress installs",
+            "2 MySQL databases",
+            "5 email accounts",
+            "Weekly backups"
+          ]
+        },
+        {
+          "name": "Basic",
+          "description": "For growing personal & small business sites",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "10 GB SSD storage",
+            "400 GB bandwidth",
+            "Free SSL certificate",
+            "cPanel control panel",
+            "2 addon domains",
+            "5 MySQL databases",
+            "10 email accounts",
+            "Unlimited subdomains",
+            "Weekly backups"
+          ]
+        },
+        {
+          "name": "Standard",
+          "description": "Great for busy business websites",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "50 GB SSD storage",
+            "Unmetered bandwidth",
+            "Free domain (first year)",
+            "Free SSL certificate",
+            "cPanel control panel",
+            "10 addon domains",
+            "Unlimited MySQL databases",
+            "Unlimited email accounts",
+            "SiteLock Security Lite",
+            "Weekly backups"
+          ]
+        },
+        {
+          "name": "Premium",
+          "description": "Maximum resources for demanding sites",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "Unlimited SSD storage",
+            "Unmetered bandwidth",
+            "Free domain (first year & renewal)",
+            "Free SSL certificate",
+            "cPanel control panel",
+            "Unlimited addon domains",
+            "Unlimited MySQL databases",
+            "Unlimited email accounts",
+            "SiteLock Security Lite",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wordpress-hosting",
+      "group": "hosting",
+      "name": "WordPress Hosting",
+      "headline": "Fast, Secure WordPress Hosting",
+      "intro": "Hosting optimised for WordPress with one-click installs, automatic updates, caching and free SSL.",
+      "plans": [
+        {
+          "name": "WP Starter",
+          "description": "One WordPress site",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "1 WordPress site",
+            "5 GB SSD storage",
+            "Free SSL",
+            "Automatic WordPress updates",
+            "LiteSpeed cache",
+            "5 email accounts"
+          ]
+        },
+        {
+          "name": "WP Business",
+          "description": "For businesses and stores",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "5 WordPress sites",
+            "30 GB SSD storage",
+            "Free SSL",
+            "Automatic WordPress updates",
+            "LiteSpeed cache",
+            "Staging site",
+            "Unlimited email accounts"
+          ]
+        },
+        {
+          "name": "WP Pro",
+          "description": "Agencies and high traffic",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "Unlimited WordPress sites",
+            "100 GB SSD storage",
+            "Free SSL",
+            "Automatic WordPress updates",
+            "LiteSpeed cache",
+            "Staging site",
+            "Daily backups",
+            "Priority support"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "windows-hosting",
+      "group": "hosting",
+      "name": "Windows Shared Hosting",
+      "headline": "Windows Hosting with Plesk",
+      "intro": "Host ASP.NET and MSSQL applications on our Windows servers managed with Plesk.",
+      "plans": [
+        {
+          "name": "Win Starter",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "5 GB storage",
+            "100 GB bandwidth",
+            "Plesk control panel",
+            "ASP.NET support",
+            "1 MSSQL database",
+            "Free SSL"
+          ]
+        },
+        {
+          "name": "Win Business",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "25 GB storage",
+            "Unmetered bandwidth",
+            "Plesk control panel",
+            "ASP.NET support",
+            "5 MSSQL databases",
+            "Free SSL"
+          ]
+        },
+        {
+          "name": "Win Pro",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "Unlimited storage",
+            "Unmetered bandwidth",
+            "Plesk control panel",
+            "ASP.NET support",
+            "Unlimited MSSQL databases",
+            "Free SSL"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vps-hosting",
+      "group": "hosting",
+      "name": "VPS Hosting",
+      "headline": "Virtual Private Servers",
+      "intro": "Get the experience of a dedicated server at a competitive price, with full root access, SSD storage and DDoS protection.",
+      "plans": [
+        {
+          "name": "VPS 1",
+          "description": "Full root access, SSD storage",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "1 CPU core",
+            "2 GB RAM",
+            "20 GB SSD disk",
+            "1 TB bandwidth",
+            "Full root access",
+            "DDoS protection",
+            "Choice of Linux distro",
+            "24/7 support"
+          ]
+        },
+        {
+          "name": "VPS 2",
+          "description": "Full root access, SSD storage",
+          "price": 200,
+          "period": "mo",
+          "featured": true,
+          "features": [
+            "2 CPU cores",
+            "4 GB RAM",
+            "40 GB SSD disk",
+            "2 TB bandwidth",
+            "Full root access",
+            "DDoS protection",
+            "Choice of Linux distro",
+            "24/7 support"
+          ]
+        },
+        {
+          "name": "VPS 3",
+          "description": "Full root access, SSD storage",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "4 CPU cores",
+            "8 GB RAM",
+            "80 GB SSD disk",
+            "3 TB bandwidth",
+            "Full root access",
+            "DDoS protection",
+            "Choice of Linux distro",
+            "24/7 support"
+          ]
+        },
+        {
+          "name": "VPS 4",
+          "description": "Full root access, SSD storage",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "8 CPU cores",
+            "16 GB RAM",
+            "160 GB SSD disk",
+            "4 TB bandwidth",
+            "Full root access",
+            "DDoS protection",
+            "Choice of Linux distro",
+            "24/7 support"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dedicated-servers",
+      "group": "hosting",
+      "name": "Dedicated Servers",
+      "headline": "Dedicated Servers",
+      "intro": "Gain complete access to server resources. No sharing!",
+      "plans": [
+        {
+          "name": "Dedicated 1",
+          "description": "Intel Xeon 4 cores",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "4 cores / 8 threads",
+            "16 GB RAM",
+            "1 TB HDD",
+            "10 TB bandwidth",
+            "Full root access",
+            "1 dedicated IP"
+          ]
+        },
+        {
+          "name": "Dedicated 2",
+          "description": "Intel Xeon 8 cores",
+          "price": 200,
+          "period": "mo",
+          "featured": true,
+          "features": [
+            "8 cores / 16 threads",
+            "32 GB RAM",
+            "2 x 1 TB HDD",
+            "20 TB bandwidth",
+            "Full root access",
+            "2 dedicated IPs"
+          ]
+        },
+        {
+          "name": "Dedicated 3",
+          "description": "Dual Intel Xeon",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "16 cores / 32 threads",
+            "64 GB RAM",
+            "2 x 1 TB SSD",
+            "Unmetered bandwidth",
+            "Full root access",
+            "4 dedicated IPs"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cloud-hosting",
+      "group": "hosting",
+      "name": "Cloud Server Hosting",
+      "headline": "Cloud Server Hosting",
+      "intro": "Scalable cloud hosting with guaranteed resources and instant upgrades.",
+      "plans": [
+        {
+          "name": "Cloud 1",
+          "description": "Full root access, SSD storage",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "2 CPU cores",
+            "2 GB RAM",
+            "40 GB SSD disk",
+            "Unmetered bandwidth",
+            "Full root access",
+            "DDoS protection",
+            "Choice of Linux distro",
+            "24/7 support"
+          ]
+        },
+        {
+          "name": "Cloud 2",
+          "description": "Full root access, SSD storage",
+          "price": 200,
+          "period": "mo",
+          "featured": true,
+          "features": [
+            "4 CPU cores",
+            "4 GB RAM",
+            "80 GB SSD disk",
+            "Unmetered bandwidth",
+            "Full root access",
+            "DDoS protection",
+            "Choice of Linux distro",
+            "24/7 support"
+          ]
+        },
+        {
+          "name": "Cloud 3",
+          "description": "Full root access, SSD storage",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "6 CPU cores",
+            "8 GB RAM",
+            "160 GB SSD disk",
+            "Unmetered bandwidth",
+            "Full root access",
+            "DDoS protection",
+            "Choice of Linux distro",
+            "24/7 support"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "linux-reseller",
+      "group": "reseller",
+      "name": "Linux Reseller Hosting",
+      "headline": "Start Your Own Hosting Business",
+      "intro": "White-label reseller hosting with WHM and cPanel. Create and manage your own hosting accounts.",
+      "plans": [
+        {
+          "name": "Reseller Starter",
+          "description": "",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "30 GB SSD storage",
+            "300 GB bandwidth",
+            "20 cPanel accounts",
+            "WHM control panel",
+            "Free SSL",
+            "White-label"
+          ]
+        },
+        {
+          "name": "Reseller Pro",
+          "description": "",
+          "price": 200,
+          "period": "mo",
+          "featured": true,
+          "features": [
+            "75 GB SSD storage",
+            "750 GB bandwidth",
+            "50 cPanel accounts",
+            "WHM control panel",
+            "Free SSL",
+            "White-label"
+          ]
+        },
+        {
+          "name": "Reseller Max",
+          "description": "",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "150 GB SSD storage",
+            "Unmetered bandwidth",
+            "Unlimited cPanel accounts",
+            "WHM control panel",
+            "Free SSL",
+            "White-label"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "windows-reseller",
+      "group": "reseller",
+      "name": "Windows Reseller Hosting",
+      "headline": "Windows Reseller Hosting",
+      "intro": "Resell Windows hosting with Plesk to your own clients.",
+      "plans": [
+        {
+          "name": "Win Reseller 1",
+          "description": "",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "25 GB storage",
+            "20 Plesk accounts",
+            "ASP.NET & MSSQL",
+            "Free SSL"
+          ]
+        },
+        {
+          "name": "Win Reseller 2",
+          "description": "",
+          "price": 200,
+          "period": "mo",
+          "featured": true,
+          "features": [
+            "60 GB storage",
+            "50 Plesk accounts",
+            "ASP.NET & MSSQL",
+            "Free SSL"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "business-email",
+      "group": "email",
+      "name": "Business Email (OX App Suite)",
+      "headline": "Professional Business Email",
+      "intro": "Email on your own domain with calendar, contacts and webmail.",
+      "plans": [
+        {
+          "name": "Email Basic",
+          "description": "Per mailbox",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "10 GB mailbox",
+            "Webmail & mobile",
+            "Calendar & contacts",
+            "Spam & virus protection"
+          ]
+        },
+        {
+          "name": "Email Pro",
+          "description": "Per mailbox",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "25 GB mailbox",
+            "Webmail & mobile",
+            "Calendar & contacts",
+            "Spam & virus protection",
+            "Office document editing"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "google-workspace",
+      "group": "email",
+      "name": "Google Workspace",
+      "headline": "Google Workspace",
+      "intro": "Gmail, Drive, Meet and Docs for your business domain.",
+      "plans": [
+        {
+          "name": "Business Starter",
+          "description": "Per user",
+          "price": 200,
+          "period": "mo",
+          "featured": false,
+          "features": [
+            "Custom business email",
+            "30 GB storage per user",
+            "Google Meet (100 participants)",
+            "Docs, Sheets & Slides"
+          ]
+        },
+        {
+          "name": "Business Standard",
+          "description": "Per user",
+          "price": 200,
+          "period": "mo",
+          "featured": true,
+          "features": [
+            "Custom business email",
+            "2 TB storage per user",
+            "Google Meet (150 participants) + recording",
+            "Docs, Sheets & Slides"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ssl-certificates",
+      "group": "security",
+      "name": "SSL Certificates",
+      "headline": "SSL Certificates",
+      "intro": "Encrypt your visitors' data and build trust with the padlock in the browser.",
+      "plans": [
+        {
+          "name": "Domain Validated",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "Single domain",
+            "256-bit encryption",
+            "Issued in minutes",
+            "Site seal"
+          ]
+        },
+        {
+          "name": "Wildcard",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "All subdomains",
+            "256-bit encryption",
+            "Issued in minutes",
+            "Site seal"
+          ]
+        },
+        {
+          "name": "Extended Validation",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "Company name in browser",
+            "256-bit encryption",
+            "Highest trust",
+            "Site seal"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "whois-privacy",
+      "group": "security",
+      "name": "ID Protection / WHOIS Privacy",
+      "headline": "WHOIS Privacy Protection",
+      "intro": "Keep your personal details out of the public WHOIS database.",
+      "plans": [
+        {
+          "name": "WHOIS Privacy",
+          "description": "Per domain",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "Hide name, address & phone",
+            "Reduce spam",
+            "Email forwarding"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "codeguard-backup",
+      "group": "security",
+      "name": "CodeGuard Backup",
+      "headline": "Daily Website Backups",
+      "intro": "Automatic daily backups with one-click restore.",
+      "plans": [
+        {
+          "name": "Backup Basic",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "1 GB backup storage",
+            "Daily backups",
+            "One-click restore"
+          ]
+        },
+        {
+          "name": "Backup Pro",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "10 GB backup storage",
+            "Daily backups",
+            "One-click restore",
+            "Malware monitoring"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sitelock",
+      "group": "security",
+      "name": "SiteLock Malware Detector",
+      "headline": "SiteLock Malware Detector",
+      "intro": "Daily malware scanning and automatic removal for your website.",
+      "plans": [
+        {
+          "name": "SiteLock Find",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "Daily malware scan",
+            "Up to 25 pages",
+            "Email alerts"
+          ]
+        },
+        {
+          "name": "SiteLock Fix",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "Daily malware scan",
+            "Automatic malware removal",
+            "Up to 500 pages",
+            "Email alerts"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vpn",
+      "group": "security",
+      "name": "VPN",
+      "headline": "Virtual Private Network",
+      "intro": "Browse privately and securely on any network.",
+      "plans": [
+        {
+          "name": "VPN",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "Unlimited bandwidth",
+            "6 devices",
+            "No-logs policy",
+            "Servers worldwide"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "website-builder",
+      "group": "website",
+      "name": "Website Builder",
+      "headline": "Easy Website Builder",
+      "intro": "Build a professional website with a drag-and-drop editor and 500+ responsive themes. No coding skills required.",
+      "plans": [
+        {
+          "name": "Builder Basic",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": false,
+          "features": [
+            "5 pages",
+            "500+ themes",
+            "Free SSL",
+            "Mobile friendly"
+          ]
+        },
+        {
+          "name": "Builder Pro",
+          "description": "",
+          "price": 200,
+          "period": "yr",
+          "featured": true,
+          "features": [
+            "Unlimited pages",
+            "500+ themes",
+            "Free SSL",
+            "Online store",
+            "Mobile friendly"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "web-design",
+      "group": "website",
+      "name": "Web Design Service",
+      "headline": "Professional Web Design",
+      "intro": "Let our team design and build your website for you.",
+      "plans": [
+        {
+          "name": "Landing Page",
+          "description": "One-page website",
+          "price": 200,
+          "period": "once",
+          "featured": false,
+          "features": [
+            "1 page",
+            "Mobile friendly",
+            "Contact form",
+            "Basic SEO"
+          ]
+        },
+        {
+          "name": "Business Website",
+          "description": "Up to 6 pages",
+          "price": 200,
+          "period": "once",
+          "featured": true,
+          "features": [
+            "Up to 6 pages",
+            "Mobile friendly",
+            "Contact form",
+            "Basic SEO",
+            "WhatsApp chat button"
+          ]
+        },
+        {
+          "name": "E-commerce",
+          "description": "Online store",
+          "price": 200,
+          "period": "once",
+          "featured": false,
+          "features": [
+            "Unlimited products",
+            "Mobile Money payments",
+            "Mobile friendly",
+            "Basic SEO"
+          ]
+        }
+      ]
+    }
+  ]
+}

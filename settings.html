@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Settings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar" id="site-header"><div class="wrap nav-row"><a class="logo" href="index.html">Settings</a></div></header>
+<section class="admin">
+  <div class="wrap">
+    <div class="admin-head"><h1>Settings</h1><a href="index.html" class="btn btn-outline small">View site</a></div>
+    <div id="status"></div>
+
+    <form class="card" id="connect">
+      <h3>GitHub connection</h3>
+      <p class="muted">Prices are saved to <code>prices.json</code> in your GitHub repo. Paste a GitHub token with <b>Contents: read &amp; write</b> access to that repo. It is stored only in this browser.</p>
+      <div class="settings-grid">
+        <label>Owner<input name="owner" required></label>
+        <label>Repo<input name="repo" required></label>
+        <label>Branch<input name="branch" required></label>
+        <label>File<input name="path" required></label>
+        <label>GitHub token<input name="token" type="password" autocomplete="off" placeholder="github_pat_…"></label>
+      </div>
+      <div class="row">
+        <label class="check"><input type="checkbox" name="remember" checked> Remember on this device</label>
+        <button class="btn">Connect &amp; load prices</button>
+        <button type="button" class="btn btn-outline" id="forget">Forget token</button>
+      </div>
+    </form>
+
+    <div id="editor"></div>
+  </div>
+</section>
+<script src="config.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/settings.js"></script>
+</body>
+</html>
