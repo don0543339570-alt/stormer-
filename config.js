@@ -2,7 +2,7 @@
 // and the Settings page saves changes back to it.
 window.SITE_CONFIG = {
   githubOwner: "don0543339570-alt",
-  githubRepo: "hosting-prices",
+  githubRepo: "stormer-",
   githubBranch: "main",
   pricesPath: "prices.json"
 };
