@@ -34,23 +34,23 @@
   "tlds": [
     {
       "ext": ".com",
-      "price": 201
+      "price": 185
     },
     {
       "ext": ".org",
-      "price": 200
+      "price": 190
     },
     {
       "ext": ".net",
-      "price": 200
+      "price": 210
     },
     {
       "ext": ".info",
-      "price": 200
+      "price": 385
     },
     {
       "ext": ".biz",
-      "price": 200
+      "price": 245
     },
     {
       "ext": ".xyz",
@@ -58,11 +58,11 @@
     },
     {
       "ext": ".com.gh",
-      "price": 200
+      "price": 300
     },
     {
       "ext": ".africa",
-      "price": 200
+      "price": 500
     }
   ],
   "categories": [
@@ -93,7 +93,7 @@
         {
           "name": "Basic",
           "description": "For growing personal & small business sites",
-          "price": 200,
+          "price": 350,
           "period": "yr",
           "featured": false,
           "features": [
@@ -111,7 +111,7 @@
         {
           "name": "Standard",
           "description": "Great for busy business websites",
-          "price": 200,
+          "price": 490,
           "period": "yr",
           "featured": true,
           "features": [
@@ -130,7 +130,7 @@
         {
           "name": "Premium",
           "description": "Maximum resources for demanding sites",
-          "price": 200,
+          "price": 600,
           "period": "yr",
           "featured": false,
           "features": [
@@ -158,7 +158,7 @@
         {
           "name": "WP Starter",
           "description": "One WordPress site",
-          "price": 200,
+          "price": 380,
           "period": "yr",
           "featured": false,
           "features": [
@@ -173,7 +173,7 @@
         {
           "name": "WP Business",
           "description": "For businesses and stores",
-          "price": 200,
+          "price": 550,
           "period": "yr",
           "featured": true,
           "features": [
@@ -189,7 +189,7 @@
         {
           "name": "WP Pro",
           "description": "Agencies and high traffic",
-          "price": 200,
+          "price": 700,
           "period": "yr",
           "featured": false,
           "features": [
@@ -216,7 +216,7 @@
           "name": "Win Starter",
           "description": "",
           "price": 200,
-          "period": "yr",
+          "period": "mo",
           "featured": false,
           "features": [
             "5 GB storage",
@@ -230,7 +230,7 @@
         {
           "name": "Win Business",
           "description": "",
-          "price": 200,
+          "price": 500,
           "period": "yr",
           "featured": true,
           "features": [
@@ -245,7 +245,7 @@
         {
           "name": "Win Pro",
           "description": "",
-          "price": 200,
+          "price": 900,
           "period": "yr",
           "featured": false,
           "features": [
@@ -269,8 +269,8 @@
         {
           "name": "VPS 1",
           "description": "Full root access, SSD storage",
-          "price": 200,
-          "period": "mo",
+          "price": 315,
+          "period": "yr",
           "featured": false,
           "features": [
             "1 CPU core",
@@ -286,7 +286,7 @@
         {
           "name": "VPS 2",
           "description": "Full root access, SSD storage",
-          "price": 200,
+          "price": 350,
           "period": "mo",
           "featured": true,
           "features": [
@@ -303,7 +303,7 @@
         {
           "name": "VPS 3",
           "description": "Full root access, SSD storage",
-          "price": 200,
+          "price": 660,
           "period": "mo",
           "featured": false,
           "features": [
@@ -320,7 +320,7 @@
         {
           "name": "VPS 4",
           "description": "Full root access, SSD storage",
-          "price": 200,
+          "price": 800,
           "period": "mo",
           "featured": false,
           "features": [
@@ -346,7 +346,7 @@
         {
           "name": "Dedicated 1",
           "description": "Intel Xeon 4 cores",
-          "price": 200,
+          "price": 2900,
           "period": "mo",
           "featured": false,
           "features": [
@@ -361,7 +361,7 @@
         {
           "name": "Dedicated 2",
           "description": "Intel Xeon 8 cores",
-          "price": 200,
+          "price": 4000,
           "period": "mo",
           "featured": true,
           "features": [
@@ -376,7 +376,7 @@
         {
           "name": "Dedicated 3",
           "description": "Dual Intel Xeon",
-          "price": 200,
+          "price": 9500,
           "period": "mo",
           "featured": false,
           "features": [
@@ -400,7 +400,7 @@
         {
           "name": "Cloud 1",
           "description": "Full root access, SSD storage",
-          "price": 200,
+          "price": 600,
           "period": "mo",
           "featured": false,
           "features": [
@@ -417,7 +417,7 @@
         {
           "name": "Cloud 2",
           "description": "Full root access, SSD storage",
-          "price": 200,
+          "price": 800,
           "period": "mo",
           "featured": true,
           "features": [
@@ -434,7 +434,7 @@
         {
           "name": "Cloud 3",
           "description": "Full root access, SSD storage",
-          "price": 200,
+          "price": 1400,
           "period": "mo",
           "featured": false,
           "features": [
@@ -460,7 +460,7 @@
         {
           "name": "Reseller Starter",
           "description": "",
-          "price": 200,
+          "price": 300,
           "period": "mo",
           "featured": false,
           "features": [
@@ -475,7 +475,7 @@
         {
           "name": "Reseller Pro",
           "description": "",
-          "price": 200,
+          "price": 450,
           "period": "mo",
           "featured": true,
           "features": [
@@ -490,7 +490,7 @@
         {
           "name": "Reseller Max",
           "description": "",
-          "price": 200,
+          "price": 600,
           "period": "mo",
           "featured": false,
           "features": [
@@ -514,7 +514,7 @@
         {
           "name": "Win Reseller 1",
           "description": "",
-          "price": 200,
+          "price": 790,
           "period": "mo",
           "featured": false,
           "features": [
@@ -527,7 +527,7 @@
         {
           "name": "Win Reseller 2",
           "description": "",
-          "price": 200,
+          "price": 1100,
           "period": "mo",
           "featured": true,
           "features": [
@@ -549,7 +549,7 @@
         {
           "name": "Email Basic",
           "description": "Per mailbox",
-          "price": 200,
+          "price": 900,
           "period": "yr",
           "featured": false,
           "features": [
@@ -562,7 +562,7 @@
         {
           "name": "Email Pro",
           "description": "Per mailbox",
-          "price": 200,
+          "price": 1222,
           "period": "yr",
           "featured": true,
           "features": [
